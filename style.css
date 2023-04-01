@@ -1,0 +1,42 @@
+.card {
+    background-color: #e7a1a1;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    width: 250px;
+    border-radius: 10%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card img {
+    object-fit: cover;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+
+}
+
+.console {
+    width: 5rem;
+    height: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
