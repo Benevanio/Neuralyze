@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "detect-css-reflows/paint": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "button-type": "off",
+    "axe/name-role-value": "off",
+    "detect-css-reflows/layout": "off",
+    "detect-css-reflows/composite": "off"
+  }
+}
